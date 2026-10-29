@@ -1,0 +1,122 @@
+{
+    "hotel": {
+        "name": "Grand Hotel"
+    },
+    "guests": [
+        {
+            "name": "Lewis Hamilton",
+            "id_number": "CU2026001",
+            "phone": "+254700111222",
+            "guest_type": "VIP",
+            "registered_on": "2026-10-26",
+            "loyalty_points": 0
+        },
+        {
+            "name": "Fabio Digi",
+            "id_number": "CU202607562",
+            "phone": "+254700333444",
+            "guest_type": "Regular",
+            "registered_on": "2026-10-26",
+            "loyalty_points": 0
+        }
+    ],
+    "staff": [
+        {
+            "name": "Ayanakoji Kiyotaka",
+            "id_number": "ST202657801",
+            "role": "Receptionist"
+        }
+    ],
+    "rooms": [
+        {
+            "class": "StandardRoom",
+            "room_number": "101",
+            "base_price": 5000.0,
+            "status": "AVAILABLE",
+            "has_tv": true
+        },
+        {
+            "class": "DeluxeRoom",
+            "room_number": "201",
+            "base_price": 8000.0,
+            "status": "AVAILABLE",
+            "includes_breakfast": true
+        },
+        {
+            "class": "Suite",
+            "room_number": "301",
+            "base_price": 15000.0,
+            "status": "RESERVED",
+            "lounge_access": true
+        }
+    ],
+    "services": [
+        {
+            "service_id": "SRV-101",
+            "name": "Laundry",
+            "price": 1500.0
+        },
+        {
+            "service_id": "SRV-102",
+            "name": "Breakfast",
+            "price": 2000.0
+        }
+    ],
+    "reservations": [
+        {
+            "reservation_id": "RES-1001",
+            "guest_id": "CU2026001",
+            "room_number": "101",
+            "nights": 3,
+            "check_in_date": "2026-10-26",
+            "status": "COMPLETED",
+            "payment_status": "PAID",
+            "created_on": "2026-10-26T12:47:45.215345",
+            "services": [
+                "SRV-101",
+                "SRV-102"
+            ],
+            "payments": [
+                {
+                    "class": "CashPayment",
+                    "payment_id": "PAY-5001",
+                    "amount": 10000.0,
+                    "payment_date": "2026-10-26T12:47:45.268948",
+                    "status": "COMPLETED",
+                    "cash_received": 10000.0
+                },
+                {
+                    "class": "CardPayment",
+                    "payment_id": "PAY-5002",
+                    "amount": 8500.0,
+                    "payment_date": "2026-10-26T12:47:45.296446",
+                    "status": "COMPLETED",
+                    "card_last4": "1111",
+                    "expiry_date": "12/28"
+                }
+            ]
+        },
+        {
+            "reservation_id": "RES-1002",
+            "guest_id": "CU202607562",
+            "room_number": "301",
+            "nights": 2,
+            "check_in_date": "2026-10-26",
+            "status": "PENDING",
+            "payment_status": "PAID",
+            "created_on": "2026-10-26T12:47:45.215507",
+            "services": [],
+            "payments": [
+                {
+                    "class": "MobilePayment",
+                    "payment_id": "PAY-5003",
+                    "amount": 38500.0,
+                    "payment_date": "2026-10-26T12:47:45.321320",
+                    "status": "COMPLETED",
+                    "phone_number": "+254700333444",
+                    "provider": "M-Pesa"
+                }
+            ]
+        }
+    ]
+}
