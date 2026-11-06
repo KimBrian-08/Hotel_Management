@@ -8,7 +8,7 @@
             "id_number": "CU2026001",
             "phone": "+254700111222",
             "guest_type": "VIP",
-            "registered_on": "2026-11-02",
+            "registered_on": "2026-11-04",
             "loyalty_points": 0
         },
         {
@@ -16,33 +16,59 @@
             "id_number": "CU202607562",
             "phone": "+254700333444",
             "guest_type": "Regular",
-            "registered_on": "2026-11-02",
+            "registered_on": "2026-11-04",
             "loyalty_points": 0
         },
         {
             "name": "Sung Jinwoo",
             "id_number": "CU202657801",
-            "phone": "+25470135686",
+            "phone": "+254701356869",
             "guest_type": "Regular",
-            "registered_on": "2026-11-02",
+            "registered_on": "2026-11-04",
+            "loyalty_points": 0
+        },
+        {
+            "name": "Sasha Sloan",
+            "id_number": "CU202658804",
+            "phone": "+254711363126",
+            "guest_type": "VIP",
+            "registered_on": "2026-11-04",
+            "loyalty_points": 0
+        },
+        {
+            "name": "Mikasa Ackerman",
+            "id_number": "CU202659851",
+            "phone": "+254721676860",
+            "guest_type": "Regular",
+            "registered_on": "2026-11-04",
             "loyalty_points": 0
         }
     ],
     "staff": [
         {
             "name": "Ayanakoji Kiyotaka",
-            "id_number": "ST202457801",
+            "id_number": "ST202453801",
             "role": "Receptionist"
         },
         {
             "name": "Satoru Gojo",
-            "id_number": "ST202147802",
+            "id_number": "ST202142802",
             "role": "Concierge"
         },
         {
             "name": "Rimuru Tempest",
-            "id_number": "ST202007801",
+            "id_number": "ST202003803",
             "role": "Staff Manager"
+        },
+        {
+            "name": "George Russell",
+            "id_number": "ST202303804",
+            "role": "Doorman"
+        },
+        {
+            "name": "Aryton Senna",
+            "id_number": "ST202303805",
+            "role": "Guard"
         }
     ],
     "rooms": [
@@ -170,10 +196,10 @@
             "guest_id": "CU2026001",
             "room_number": "101",
             "nights": 3,
-            "check_in_date": "2026-11-02",
+            "check_in_date": "2026-11-04",
             "status": "COMPLETED",
             "payment_status": "PAID",
-            "created_on": "2026-11-02T19:27:17.623474",
+            "created_on": "2026-11-04T13:56:20.523332",
             "services": [
                 "SRV-101",
                 "SRV-102"
@@ -183,7 +209,7 @@
                     "class": "CashPayment",
                     "payment_id": "PAY-5001",
                     "amount": 10000.0,
-                    "payment_date": "2026-11-02T19:27:17.900785",
+                    "payment_date": "2026-11-04T13:56:20.615148",
                     "status": "COMPLETED",
                     "cash_received": 10000.0
                 },
@@ -191,7 +217,7 @@
                     "class": "CardPayment",
                     "payment_id": "PAY-5002",
                     "amount": 8500.0,
-                    "payment_date": "2026-11-02T19:27:18.045604",
+                    "payment_date": "2026-11-04T13:56:20.649909",
                     "status": "COMPLETED",
                     "card_last4": "1111",
                     "expiry_date": "12/28"
@@ -203,17 +229,17 @@
             "guest_id": "CU202607562",
             "room_number": "301",
             "nights": 2,
-            "check_in_date": "2026-11-02",
+            "check_in_date": "2026-11-04",
             "status": "PENDING",
             "payment_status": "PAID",
-            "created_on": "2026-11-02T19:27:17.623623",
+            "created_on": "2026-11-04T13:56:20.523500",
             "services": [],
             "payments": [
                 {
                     "class": "MobilePayment",
                     "payment_id": "PAY-5003",
                     "amount": 38500.0,
-                    "payment_date": "2026-11-02T19:27:18.196849",
+                    "payment_date": "2026-11-04T13:56:20.674487",
                     "status": "COMPLETED",
                     "phone_number": "+254700333444",
                     "provider": "M-Pesa"
