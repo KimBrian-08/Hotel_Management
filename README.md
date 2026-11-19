@@ -12,9 +12,9 @@ The system manages guests, staff, rooms, reservations, hotel services, payments,
 
 | Name | Registration Number | GitHub Username |
 | ---- | ------------------- | --------------- |
-| Brian | TODO               |   KimBrian-08   |
-| Steve | TODO               |   kikes2026     |
-| William | TODO             | TODO            |
+| Brian | ****               |   KimBrian-08   |
+| Steve | ****               |   kikes2026     |
+| William | ****             | TODO            |
 
 **Course:** OOP with Python
 **Repository:** <https://github.com/KimBrian-08/Hotel_Management>
@@ -23,11 +23,7 @@ The system manages guests, staff, rooms, reservations, hotel services, payments,
 
 ## Problem Statement
 
-Hotels need a structured way to manage guests, rooms, reservations, payments, and
-additional services. Manual processes lead to double booking, poor room tracking,
-billing errors, and inefficient guest management. This project solves that problem
-with an object-oriented system where each hotel entity is modelled as a class with
-its own data, validation, and behaviour.
+Hotels need a structured way to manage guests, rooms, reservations, payments, and additional services. Manual processes lead to double booking, poor room tracking,billing errors, and inefficient guest management. This project solves that problem with an object-oriented system where each hotel entity is modelled as a class with its own data, validation, and behaviour.
 
 ## Features
 
@@ -42,7 +38,7 @@ its own data, validation, and behaviour.
 - **Final bills and payment receipts** (formatted, monospaced documents)
 - **Guest history, payment history, and hotel summary reports** (revenue, outstanding balances)
 - **JSON persistence** — save and reload the entire hotel state, including from the GUI
-- **Tkinter desktop GUI** — dashboard KPI cards, colour-coded tables, form dialogs
+- **Tkinter desktop GUI** 
 
 ---
 
@@ -99,9 +95,7 @@ Hotel (controller) ── owns ── Guests, Staff, Rooms, Services, Reservatio
 HotelGUI (Tkinter view) ── delegates everything to ── Hotel
 ```
 
-The `Hotel` class is the central controller (Facade). The GUI contains no business
-logic — every button calls one controller method, which looks up entities and
-delegates to the domain objects, where all business rules are enforced.
+The `Hotel` class is the central controller (Facade). The GUI contains no business logic — every button calls one controller method, which looks up entities and delegates to the domain objects, where all business rules are enforced.
 
 ---
 
@@ -119,7 +113,6 @@ Hotel_Management/
 
 - **Python 3.10+** (developed and tested on Python 3.13)
 - **tkinter** — included with standard Python installers
-  (Linux: `sudo apt install python3-tk` if missing)
 - **Jupyter Notebook or JupyterLab** — `pip install notebook`
 
 No third-party libraries are needed for the core system, GUI, or persistence.
@@ -133,7 +126,7 @@ cd Hotel_Management
 
 # 2. (Optional) create a virtual environment
 python -m venv .venv
-# Windows: .venv\Scripts\activate   |   Linux/macOS: source .venv/bin/activate
+# Windows: .venv\Scripts\activate  
 
 # 3. Install Jupyter and launch the notebook
 pip install notebook
@@ -158,8 +151,7 @@ jupyter notebook hotel_management.ipynb
 | **Services** | Create hotel services (laundry, breakfast, …) |
 | **Reservations & Payments** | Book, add services, check in/out, cancel, pay (cash/card/mobile), view bills, receipts, and payment history |
 
-**Typical workflow:** Register guest → Add room → Make reservation → Add services →
-Process payment(s) → Check in → Check out → Final bill → **Save Data**.
+**Typical workflow:** Register guest → Add room → Make reservation → Add services → Process payment(s) → Check in → Check out → Final bill → **Save Data**.
 
 ## Data Persistence
 
