@@ -1,6 +1,6 @@
 {
     "hotel": {
-        "name": "Grand Hotel"
+        "name": "Hotel Transylvania"
     },
     "guests": [
         {
@@ -8,7 +8,7 @@
             "id_number": "CU2026001",
             "phone": "+254700111222",
             "guest_type": "VIP",
-            "registered_on": "2026-11-15",
+            "registered_on": "2026-11-20",
             "loyalty_points": 0
         },
         {
@@ -16,7 +16,7 @@
             "id_number": "CU202607562",
             "phone": "+254700333444",
             "guest_type": "Regular",
-            "registered_on": "2026-11-15",
+            "registered_on": "2026-11-20",
             "loyalty_points": 0
         },
         {
@@ -24,7 +24,7 @@
             "id_number": "CU202657801",
             "phone": "+254701356869",
             "guest_type": "Regular",
-            "registered_on": "2026-11-15",
+            "registered_on": "2026-11-20",
             "loyalty_points": 0
         },
         {
@@ -32,7 +32,7 @@
             "id_number": "CU202658804",
             "phone": "+254711363126",
             "guest_type": "VIP",
-            "registered_on": "2026-11-15",
+            "registered_on": "2026-11-20",
             "loyalty_points": 0
         },
         {
@@ -40,11 +40,16 @@
             "id_number": "CU202659851",
             "phone": "+254721676860",
             "guest_type": "Regular",
-            "registered_on": "2026-11-15",
+            "registered_on": "2026-11-20",
             "loyalty_points": 0
         }
     ],
     "staff": [
+        {
+            "name": "Count Dracula",
+            "id_number": "ST202107809",
+            "role": "Chief Executive Officer"
+        },
         {
             "name": "Ayanakoji Kiyotaka",
             "id_number": "ST202453801",
@@ -69,6 +74,16 @@
             "name": "Aryton Senna",
             "id_number": "ST202303805",
             "role": "Guard"
+        },
+        {
+            "name": "Mina Ashiro",
+            "id_number": "ST2024005",
+            "role": "Cleaner"
+        },
+        {
+            "name": "Kikoru Shinomiya",
+            "id_number": "ST2024006",
+            "role": "Cleaner"
         }
     ],
     "rooms": [
@@ -196,10 +211,10 @@
             "guest_id": "CU2026001",
             "room_number": "101",
             "nights": 3,
-            "check_in_date": "2026-11-15",
+            "check_in_date": "2026-11-20",
             "status": "COMPLETED",
             "payment_status": "PAID",
-            "created_on": "2026-11-15T23:56:16.770652",
+            "created_on": "2026-11-20T11:13:11.973680",
             "services": [
                 "SRV-101",
                 "SRV-102"
@@ -209,7 +224,7 @@
                     "class": "CashPayment",
                     "payment_id": "PAY-5004",
                     "amount": 10000.0,
-                    "payment_date": "2026-11-15T23:56:16.824804",
+                    "payment_date": "2026-11-20T11:13:12.043929",
                     "status": "COMPLETED",
                     "cash_received": 10000.0
                 },
@@ -217,9 +232,9 @@
                     "class": "CardPayment",
                     "payment_id": "PAY-5005",
                     "amount": 8500.0,
-                    "payment_date": "2026-11-15T23:56:16.907907",
+                    "payment_date": "2026-11-20T11:13:12.117180",
                     "status": "COMPLETED",
-                    "card_last4": "1111",
+                    "card_last4": "0366",
                     "expiry_date": "12/28"
                 }
             ]
@@ -229,17 +244,17 @@
             "guest_id": "CU202607562",
             "room_number": "301",
             "nights": 2,
-            "check_in_date": "2026-11-15",
+            "check_in_date": "2026-11-20",
             "status": "PENDING",
             "payment_status": "PAID",
-            "created_on": "2026-11-15T23:56:16.770791",
+            "created_on": "2026-11-20T11:13:11.973831",
             "services": [],
             "payments": [
                 {
                     "class": "MobilePayment",
                     "payment_id": "PAY-5006",
                     "amount": 38500.0,
-                    "payment_date": "2026-11-15T23:56:16.938062",
+                    "payment_date": "2026-11-20T11:13:12.146011",
                     "status": "COMPLETED",
                     "phone_number": "+254700333444",
                     "provider": "M-Pesa"
