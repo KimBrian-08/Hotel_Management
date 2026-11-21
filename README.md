@@ -12,9 +12,9 @@ The system manages guests, staff, rooms, reservations, hotel services, payments,
 
 | Name | Registration Number | GitHub Username |
 | ---- | ------------------- | --------------- |
-| Brian | ****               |   KimBrian-08   |
-| Steve | ****               |   kikes2026     |
-| William | ****             | TODO            |
+| Brian Kimtai| ****               |   KimBrian-08   |
+| Stephen Kiprop | ****               |   kikes2026     |
+| William Thotho | ****             | thothowilliam71-pixel           |
 
 **Course:** OOP with Python
 **Repository:** <https://github.com/KimBrian-08/Hotel_Management>
