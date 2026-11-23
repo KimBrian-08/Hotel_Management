@@ -8,7 +8,7 @@
             "id_number": "CU2026001",
             "phone": "+254700111222",
             "guest_type": "VIP",
-            "registered_on": "2026-11-21",
+            "registered_on": "2026-11-23",
             "loyalty_points": 0
         },
         {
@@ -16,7 +16,7 @@
             "id_number": "CU202607562",
             "phone": "+254700333444",
             "guest_type": "Regular",
-            "registered_on": "2026-11-21",
+            "registered_on": "2026-11-23",
             "loyalty_points": 0
         },
         {
@@ -24,7 +24,7 @@
             "id_number": "CU202657801",
             "phone": "+254701356869",
             "guest_type": "Regular",
-            "registered_on": "2026-11-21",
+            "registered_on": "2026-11-23",
             "loyalty_points": 0
         },
         {
@@ -32,7 +32,7 @@
             "id_number": "CU202658804",
             "phone": "+254711363126",
             "guest_type": "VIP",
-            "registered_on": "2026-11-21",
+            "registered_on": "2026-11-23",
             "loyalty_points": 0
         },
         {
@@ -40,7 +40,7 @@
             "id_number": "CU202659851",
             "phone": "+254721676860",
             "guest_type": "Regular",
-            "registered_on": "2026-11-21",
+            "registered_on": "2026-11-23",
             "loyalty_points": 0
         }
     ],
@@ -211,10 +211,10 @@
             "guest_id": "CU2026001",
             "room_number": "101",
             "nights": 3,
-            "check_in_date": "2026-11-21",
+            "check_in_date": "2026-11-23",
             "status": "COMPLETED",
             "payment_status": "PAID",
-            "created_on": "2026-11-21T23:14:38.451523",
+            "created_on": "2026-11-23T12:59:44.397213",
             "services": [
                 "SRV-101",
                 "SRV-102"
@@ -224,7 +224,7 @@
                     "class": "CashPayment",
                     "payment_id": "PAY-5004",
                     "amount": 10000.0,
-                    "payment_date": "2026-11-21T23:14:38.573122",
+                    "payment_date": "2026-11-23T12:59:44.455864",
                     "status": "COMPLETED",
                     "cash_received": 10000.0
                 },
@@ -232,7 +232,7 @@
                     "class": "CardPayment",
                     "payment_id": "PAY-5005",
                     "amount": 8500.0,
-                    "payment_date": "2026-11-21T23:14:38.611645",
+                    "payment_date": "2026-11-23T12:59:44.479724",
                     "status": "COMPLETED",
                     "card_last4": "0366",
                     "expiry_date": "12/28"
@@ -244,17 +244,17 @@
             "guest_id": "CU202607562",
             "room_number": "301",
             "nights": 2,
-            "check_in_date": "2026-11-21",
+            "check_in_date": "2026-11-23",
             "status": "PENDING",
             "payment_status": "PAID",
-            "created_on": "2026-11-21T23:14:38.451657",
+            "created_on": "2026-11-23T12:59:44.397371",
             "services": [],
             "payments": [
                 {
                     "class": "MobilePayment",
                     "payment_id": "PAY-5006",
                     "amount": 38500.0,
-                    "payment_date": "2026-11-21T23:14:38.646410",
+                    "payment_date": "2026-11-23T12:59:44.507806",
                     "status": "COMPLETED",
                     "phone_number": "+254700333444",
                     "provider": "M-Pesa"
